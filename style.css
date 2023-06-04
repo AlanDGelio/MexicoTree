@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap'); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  overflow-x: hidden;
+}
+
+body {
+   background: #232323;
+  background: -webkit-linear-gradient(
+    to top,
+    #fffcfc,
+    
+  );
+  background: linear-gradient(
+    to top,
+    #868686,
+    
+  ); 
+  height: 100vh;
+  width: 100vw;
+}
+
+.caja-arbol {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.caja-arbol img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+}
+
+.caja-arbol .mzn {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.caja-arbol .mzn img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+
+.caja-arbol .mzn-1{
+    top: 180px;
+    left: 700px;
+}
+.caja-arbol .mzn-2{
+    top: 80px;
+    left: 900px;
+}
+.caja-arbol .mzn-3{
+    top: 60px;
+    left: 100px;
+}
+.caja-arbol .mzn-4{
+    top: 180px;
+    left: 300px;
+}
+.caja-arbol .mzn-5{
+    top: 190px;
+    left: 1020px;
+}
+.caja-arbol .mzn-6{
+    top: 30px;
+    left: 400px;
+}
+
+.caja-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.caja-img .link-img{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.caja-img .link-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.caso #galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.caso #galeria picture{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 5px #625e70;
+    margin: 10px;
+}
+
+.caso #galeria picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform .2s ease;
+}
+
+.caso #galeria picture img:hover{
+    transform: scale(1.1);
+}
+
+ .caso #contenido{
+    width: 80%;
+    margin: auto;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: rgba(43, 43, 43, 0.5);
+    box-shadow: 0 0 10px 5px #625e70;
+
+}
+
+.caso #contenido a{
+    text-decoration: none;
+    color: #625e70;
+    font-weight: bold;
+}
+
+.libroPrincipal .cajaTextos{
+   border: solid 1px rgba(0, 0, 0, 0.1); 
+   
+   border: solid 1px;
+   border-radius: 10px;
+   margin: 2.5rem auto;
+   padding: 1rem;
+   max-width: 70%;
+}
+
+.libroPrincipal .cajaTextos p{
+    color: #ffffff;
+}
